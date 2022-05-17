@@ -12,9 +12,8 @@ Github용 자기소개 페이지 작성
 
 ## 담고 싶은 기술
 
-1. React(현재 17.0.2 추후 18버전 마이그레이션)
-2. 반응형 페이지
-
-## 담고 싶은 새기술
-1. TypeScript(new)
-2. nextjs(new)
+1. React18
+2. TypeScript
+3. SSR(next.js)
+4. 반응형 UI
+5. DarkMode
