@@ -8,6 +8,7 @@ import { setDimension } from './actions/commonAction';
 // Import
 import { IS_MOBILE_WIDTH } from './config';
 
+// CSS
 import './App.css';
 
 function App() {

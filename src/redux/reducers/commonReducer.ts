@@ -5,7 +5,11 @@ const initState = {
   isRequesting: false,
 };
 
-export const commonState = (state = Object.assign({}, initState), action) => {
+type ActionType = {
+  type: string,
+}
+
+export const commonState = (state = Object.assign({}, initState), action: ActionType) => {
   switch (action.type) {
 
     case ActionTypes.COMMON__FETCH_REQUEST:
