@@ -4,8 +4,8 @@ type SectionProps = {
   name: string;
 }
 
-const Section1_intro: React.FC<SectionProps> = ({ name }) => (
+const Intro = ({ name }: SectionProps) => (
   <div>Hello, {name} </div>
 );
 
-export default Section1_intro;
+export default Intro;
